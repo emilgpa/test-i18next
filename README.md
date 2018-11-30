@@ -2,11 +2,11 @@
 
 # COMPILE TO...
 
-## DEVELOPMENT
+### DEVELOPMENT
 
 `npm run dev`
 
-## PRODUCTION
+### PRODUCTION
 
 `npm run pro`
 
@@ -16,11 +16,11 @@
 
 # OBSERVATIONS
 
-## IN DEVELOPMENT
+### IN DEVELOPMENT
 
 everything works.
 
-## IN PRODUCTION
+### IN PRODUCTION
 
 with `i18next` included in `externals` in `webpack.config.js`, everything works.
 without `i18next` included in `externals` and configured with `react: {wait: true}` in `src/i18n/i18n.ts`, the components are not loaded.
