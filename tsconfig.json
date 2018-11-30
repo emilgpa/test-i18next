@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    //"noUnusedParameters": true,
+    //"noUnusedLocals": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    //"removeComments": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    // "outDir": "../ES6", // production
+    "outDir": "./es", // development
+    "sourceMap": true,
+    //"inlineSources": true,
+    "target": "es2017",
+    "module": "esNext", // development,
+    "baseUrl": "./src",
+    "jsx": "preserve",
+    "lib": ["es2017", "dom", "dom.iterable"],
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+}

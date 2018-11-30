@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      //"noUnusedParameters": true,
+      //"noUnusedLocals": true,
+      "alwaysStrict": true,
+      "noImplicitAny": false,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      // "outDir": "../ES6", // production
+      "outDir": "../dev", // development
+      //"sourceMap": true,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "target": "es2017",
+      "strictNullChecks": true,
+      "module": "amd", // development,
+      "jsx": "react",
+      "lib": ["es2017", "dom", "dom.iterable"],
+      "experimentalDecorators": true,
+      "moduleResolution": "node" // arreglo al no encontrar "csstype" ni "redux" type dfinition,
+    }
+  }
