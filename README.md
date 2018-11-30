@@ -1,9 +1,15 @@
 `npm run init`
 
-# DEVELOPMENT
+# COMPILE TO...
+
+## DEVELOPMENT
 
 `npm run dev`
 
-# PRODUCTION
+## PRODUCTION
 
 `npm run pro`
+
+# RUN SERVER
+
+`npm run live` (listening :3000)
